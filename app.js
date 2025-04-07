@@ -19,7 +19,7 @@ class Calculator {
     // The test expects: divide(6, 2) to return 3
     // The test expects: divide(5, 0) to return 'Cannot divide by zero'
     if (b === 0) {
-      return 'Cannot divide by 0'; // This is wrong!
+      return 'Cannot divide by zero'; // This is wrong!
     }
     return a / b;
   }
